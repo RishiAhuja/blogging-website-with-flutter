@@ -6,8 +6,6 @@
 [![DI](https://img.shields.io/badge/GetIt-7.x-green.svg)](https://pub.dev/packages/get_it)
 [![Storage](https://img.shields.io/badge/Hive-3.x-yellow.svg)](https://pub.dev/packages/hive)
 [![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-Implemented-blue.svg)]()
-[![Build Status](https://img.shields.io/github/workflow/status/RishiAhuja/blogging-website-with-flutter/Build)](https://github.com/RishiAhuja/blogging-website-with-flutter/actions)
-[![Coverage Status](https://img.shields.io/codecov/c/github/RishiAhuja/blogging-website-with-flutter)](https://codecov.io/gh/RishiAhuja/blogging-website-with-flutter)
 
 > ⚠️ **Note**: This project is currently under active development and serves as a learning resource for Clean Architecture and BLoC pattern implementation. Some features might be unstable.
 
