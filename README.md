@@ -27,7 +27,7 @@
 
 A web-first blogging platform built with Flutter, demonstrating modern architectural patterns and state management solutions. This project showcases how Flutter can be effectively used for web applications while maintaining clean code principles and scalable architecture.
 
-[Read about implementing Clean Architecture and BLoC Architecture implemented in the website](https://rishi2220.hashnode.dev/getting-cracked-at-clean-and-bloc-architecture)
+[Read My Clean Architecture Implementation](https://rishi2220.hashnode.dev/getting-cracked-at-clean-and-bloc-architecture)
 
 ## Features
 
@@ -41,16 +41,32 @@ A web-first blogging platform built with Flutter, demonstrating modern architect
 ## Visual Overview
 
 ![Screenshot 1](/assets/screenshots/1.png)
-*Homepage*
+*Get Started Page*
 
 ![Screenshot 2](/assets/screenshots/2.png)
-*Blog Editor*
+*Blog Preview Page*
 
 ![Screenshot 3](/assets/screenshots/3.png)
-*Blog List*
+*Raw Markdown Editor*
 
 ![Screenshot 4](/assets/screenshots/4.png)
-*Blog Details*
+*Login Page*
+
+![Screenshot 5](/assets/screenshots/5.png)
+*Blog List*
+
+![Screenshot 6](/assets/screenshots/6.png)
+*Profile Page*
+
+![Screenshot 7](/assets/screenshots/7.png)
+*Profile Edit Page*
+
+![Screenshot 8](/assets/screenshots/8.png)
+*Following Popup*
+
+![Screenshot 9](/assets/screenshots/9.png)
+*Profile Page*
+
 
 ## Getting Started
 
