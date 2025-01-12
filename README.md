@@ -29,14 +29,92 @@ A web-first blogging platform built with Flutter, demonstrating modern architect
 
 [Read My Clean Architecture Implementation](https://rishi2220.hashnode.dev/getting-cracked-at-clean-and-bloc-architecture)
 
-## Features
+## Key Features
 
-- Web-first design
-- Clean Architecture
-- BLoC state management
-- Firebase integration
-- Hive for local storage
-- Dependency injection with GetIt
+### Content Management
+- Full-featured Markdown editor with live preview
+- Rich text interface for non-technical users
+- Local draft saving using Hive
+- Remote blog publishing
+- Hybrid storage system (local + remote)
+
+### User Management
+- Firebase Authentication integration
+- Profile customization and management
+- Follow/Following system
+- Shareable profile pages
+- User discovery
+
+### State Management & Architecture
+- BLoC pattern implementation for state management
+- GetIt for dependency injection
+- Clean Architecture principles
+- Responsive design support
+
+### 🔗 Routing & Sharing
+- Go Router implementation
+- Deep linking support
+- Shareable blog posts and profiles
+
+## Project Structure
+
+The project follows Clean Architecture principles with a clear separation of concerns:
+
+```
+lib/
+├── core/                # Core application code
+│   ├── configs/         # Configuration files
+│   ├── usecase/         # Base usecase definitions
+│   └── constants/       # Application constants
+│
+├── data/                # Data layer
+│   ├── models/          # Data models
+│   ├── repository/      # Repository implementations
+│   └── sources/         # Data sources (Firebase, Hive, etc.)
+│
+├── domain/              # Domain layer
+│   ├── entities/        # Business entities
+│   ├── repository/      # Repository interfaces
+│   ├── services/        # Domain services
+│   └── usecases/        # Business logic usecases
+│
+├── presentation/        # Presentation layer
+│   ├── auth/            # Authentication UI
+│   ├── blog_editor/     # Blog editor features
+│   ├── preview/         # Blog preview
+│   ├── profile/         # User profile
+│   └── theme_shift/     # Theme management
+│
+└── common/              # Shared components
+    ├── helper/          # Helper functions
+    ├── router/          # Routing configuration
+    └── widgets/         # Reusable widgets
+```
+
+## Technical Stack
+
+- **Frontend Framework**: Flutter Web
+- **State Management**: BLoC Pattern
+  - Multiple BLoCs for different features (Auth, Blog, Profile, etc.)
+  - Cubit for simpler state management cases
+- **Backend Services**: Firebase
+  - Authentication
+  - Firestore for data storage
+  - Cloud Storage for media
+- **Local Storage**: Hive
+  - Blog drafts
+  - User preferences
+- **Dependency Injection**: GetIt
+  - Service locator pattern
+  - Clean dependency management
+- **Navigation**: Go Router
+  - Web URL support
+  - Deep linking
+- **UI Components**
+  - Custom widgets
+  - Responsive layouts
+  - Neomorphic design elements
+
 
 ## Visual Overview
 
@@ -117,21 +195,15 @@ This project is ideal for developers looking to understand:
 ### Areas for Contribution
 
 1. **Feature Improvements**
-   - Enhanced markdown editor features
-   - Better image handling
-   - Social sharing capabilities
-   - Comments system
+   - Explore Page
+   - Home Page UI
+   - Robust Auth System
+   - More Robust Offline First Implementation
 
-2. **Technical Improvements**
-   - Test coverage
+2. **Bugs**
+   - Image Rendering in Blog Post
    - Performance optimizations
    - Caching strategies
-   - SEO improvements
-
-3. **Documentation**
-   - Code documentation
-   - Wiki pages
-   - Architecture diagrams
 
 ### Getting Started with Contributing
 
